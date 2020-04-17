@@ -33,4 +33,3 @@ ggboxplot(data, x = "Método", y = "Mean",
   color = "Método", palette = c("#00AFBB", "#53fd10"),
   add = "jitter"
   )+   stat_compare_means(comparisons = my_comparisons, method = "t.test")
-  #Teste
